@@ -1,0 +1,82 @@
+/********** Base styles **********/
+
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#h22 {
+  background-color:  #c14543;
+}
+#h21 {
+  background-color:  #d59898;
+}
+#h23 {
+  background-color:  #e5d198;
+}
+
+h1 {
+  padding: 20px 0px 45px 0px;
+    text-align: center;
+}
+
+h2 {
+  border: 1px solid black;
+  padding: 0px 10% 2px 10%;
+  float: right;
+  margin-top: 0px;
+}
+p {
+  padding: 0px 2% 0px 2%;
+  margin-bottom: 15px;
+    clear: right;
+}
+#maindiv {
+    clear: both;
+    width: 100%;
+  overflow: hidden;
+}
+section {
+  background-color: #999999;
+  margin-bottom: 2.4%;
+  float: left;
+}
+/********** Desktop **********/
+@media (min-width: 992px) {
+  section {
+    border: 1px solid black;
+    width: 30.93333333%;
+    padding:  0px 0px 0px 0px;
+    margin-right: 1.2%;
+    margin-left: 1.2%;
+  }
+}
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #sec1, #sec2 {
+    border: 1px solid black;
+    width: 47.6%;
+    padding:  0px 0px 0px 0px;
+    margin-right: 1.2%;
+    margin-left: 1.2%;
+  }
+
+  #sec3 {
+    border: 1px solid black;
+    width: 97.6%;
+    padding:  0px 0px 0px 0px;
+    margin-right: 1.2%;
+    margin-left: 1.2%;
+  }
+}
+/********** Mobile **********/
+@media (max-width: 767px){
+  section {
+    border: 1px solid black;
+    width: 97.6%;
+    
+    padding:  0px 0px 0px 0px;
+    margin-right: 1.2%;
+    margin-left: 1.2%;
+  }
+}
